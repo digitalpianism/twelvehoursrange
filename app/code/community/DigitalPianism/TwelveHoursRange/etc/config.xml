@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config>
+
+	<modules>
+		<DigitalPianism_TwelveHoursRange>
+			<version>0.1.1</version>
+		</DigitalPianism_TwelveHoursRange>
+	</modules>
+	
+	<global>
+		<models>
+			<reports_resource>
+				<rewrite>
+					<!-- Mage_Reports_Model_Resource_Order_Collection -->
+					<order_collection>DigitalPianism_TwelveHoursRange_Model_Reports_Resource_Order_Collection</order_collection>
+				</reports_resource>
+			</reports>
+		</models>
+		
+		<blocks>
+			<adminhtml>
+				<rewrite>
+					<!-- Mage_Adminhtml_Block_Dashboard_Graph -->
+					<dashboard_graph>DigitalPianism_TwelveHoursRange_Block_Adminhtml_Dashboard_Graph</dashboard_graph>
+					<!-- Mage_Adminhtml_Block_Dashboard_Totals -->
+					<dashboard_totals>DigitalPianism_TwelveHoursRange_Block_Adminhtml_Dashboard_Totals</dashboard_totals>
+					<!-- Mage_Adminhtml_Block_Dashboard_Tab_Amounts -->
+					<dashboard_tab_amounts>DigitalPianism_TwelveHoursRange_Block_Adminhtml_Dashboard_Tab_Amounts</dashboard_tab_amounts>
+					<!-- Mage_Adminhtml_Block_Dashboard_Tab_Orders -->
+					<dashboard_tab_orders>DigitalPianism_TwelveHoursRange_Block_Adminhtml_Dashboard_Tab_Orders</dashboard_tab_orders>
+				</rewrite>
+			</adminhtml>
+		</blocks>
+		
+		<helpers>
+			<adminhtml>
+				<rewrite>
+					<!-- Mage_Adminhtml_Helper_Dashboard_Data -->
+					<dashboard_data>DigitalPianism_TwelveHoursRange_Helper_Adminhtml_Dashboard_Data</dashboard_data>
+				</rewrite>
+			</adminhtml>
+		</helpers>
+	</global>
+	
+</config>

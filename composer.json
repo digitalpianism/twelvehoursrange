@@ -1,0 +1,16 @@
+{
+  "name": "digitalpianism/twelvehoursrange",
+  "type": "magento-module",
+  "license":"OSL-3.0",
+  "description":"Adds a 12 hours range to the dashboard",
+  "require": {
+    "php": ">=5.3",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors":[
+    {
+      "name":"Raphael Petrini",
+      "email":"contact@digital-pianism.com"
+    }
+  ]
+}
